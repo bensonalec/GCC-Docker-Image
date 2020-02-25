@@ -4,6 +4,8 @@ Usage: Clone this repo, then add C files you want to compile to the test_files f
 
 Then, run the following commands to build and run the image:
 
+docker pull gcc
+
 docker build -t gccshell .
 
 docker run -it gccshell
